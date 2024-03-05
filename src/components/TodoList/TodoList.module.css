@@ -1,0 +1,14 @@
+.InputField{
+    display: flex;
+    justify-content: center; 
+    text-align: center;
+    padding: 10px;
+    border: 2px solid rgb(117, 114, 114);
+    border-radius: 5px;
+    margin: 10px;
+    width: 95%;
+}
+
+.button{
+    float: right;
+}

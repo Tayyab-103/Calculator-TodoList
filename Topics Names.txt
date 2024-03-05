@@ -1,0 +1,28 @@
+23) Passing Children
+const Container = (props) =>{
+return {props.children}
+}
+export default Container;
+
+
+24) Handling Events:
+onClick, Onchange etc these are handling event which is control Events very Easly 
+
+const Display = () => {
+  const handleOnChange = (event) => {
+    console.log(event.target.value);
+  };
+
+  return (
+    <input className={styles.display} type="text" onChange={handleOnChange} />
+  );
+};
+
+export default Display;
+
+
+25) Passing Function via Props:
+
+
+26) Managing States:
+means useState()
