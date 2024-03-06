@@ -1,9 +1,17 @@
 /* eslint-disable react/prop-types */
 import styles from "./Display.module.css";
-const Display = ({handleOnChange}) => {
-
+const Display = ({
+  // handleOnChange,
+  displayValue,
+}) => {
   return (
-    <input className={styles.display} type="text" onChange={handleOnChange} />
+    <input
+      className={styles.display}
+      type="text"
+      readOnly
+      value={displayValue}
+      // onChange={handleOnChange}
+    />
   );
 };
 
