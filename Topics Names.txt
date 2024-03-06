@@ -26,3 +26,9 @@ export default Display;
 
 26) Managing States:
 means useState()
+
+28) React-Icon Library
+
+29) Inspect and React Developer tool extension 
+
+30) How to React Works (!Important):
